@@ -1,0 +1,8 @@
+apiVersion: shipa.crossplane.io/v1alpha1
+kind: AppDeploy
+metadata:
+  name: deploy-of-portal-application
+spec:
+  forProvider:
+    app: tf-deployed-app
+    image: "docker.io/shipasoftware/bulletinboard:1.0"

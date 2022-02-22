@@ -4,5 +4,5 @@ metadata:
   name: deploy-of-cp-application
 spec:
   forProvider:
-    app: cf-deployed-app
+    app: cp-deployed-app
     image: "docker.io/shipasoftware/bulletinboard:1.0"

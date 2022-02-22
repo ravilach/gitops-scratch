@@ -1,7 +1,7 @@
 apiVersion: shipa.crossplane.io/v1alpha1
 kind: AppDeploy
 metadata:
-  name: deploy-of-portal-application
+  name: deploy-of-cp-application
 spec:
   forProvider:
     app: cf-deployed-app

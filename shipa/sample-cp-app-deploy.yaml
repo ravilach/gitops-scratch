@@ -4,5 +4,5 @@ metadata:
   name: deploy-of-portal-application
 spec:
   forProvider:
-    app: tf-deployed-app
+    app: cf-deployed-app
     image: "docker.io/shipasoftware/bulletinboard:1.0"

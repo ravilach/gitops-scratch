@@ -1,0 +1,9 @@
+apiVersion: shipa.crossplane.io/v1alpha1
+kind: AppCname
+metadata:
+  name: cp-app-cname
+spec:
+  forProvider:
+    app: cf-deployed-app
+    cname: www.shipaisamazing.com
+    encrypt: no

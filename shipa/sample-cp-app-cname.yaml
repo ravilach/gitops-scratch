@@ -5,5 +5,5 @@ metadata:
 spec:
   forProvider:
     app: cp-deployed-app
-    cname: www.shipaisamazing.com
+    cname: www.shipaisamazingcname.com
     encrypt: no

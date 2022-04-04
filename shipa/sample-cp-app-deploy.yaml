@@ -6,3 +6,7 @@ spec:
   forProvider:
     app: cp-deployed-app
     image: "docker.io/shipasoftware/bulletinboard:1.0"
+
+# ghcr.io/podtato-head/podtatoserver:v0.1.1
+# docker.io/wordpress
+# docker.io/shipasoftware/bulletinboard:1.0
